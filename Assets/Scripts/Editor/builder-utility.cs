@@ -1,3 +1,5 @@
+namespace BuilderUtility
+{
 using UnityEditor;
 using System.Linq;
 using System;
@@ -175,4 +177,5 @@ class Builder
         PlayerSettings.Android.keystorePass = keystorePass;
         PlayerSettings.Android.keyaliasPass = keystoreAliasPass;
     }
+}
 }
